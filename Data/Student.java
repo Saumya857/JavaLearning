@@ -11,9 +11,6 @@ public class Student {
     @SuppressWarnings("unused")
     private int noteBooks;
 
-      public Student(){
-
-    }
 
     public Student(String name, int gradeLevel, double gpa, String gender, int noteBooks, List<String> activities) {
         this.name = name;
@@ -24,9 +21,6 @@ public class Student {
         this.activities = activities;
     }
 
-    public Student(String s) {
-        this.name = s;
-    }
 
     public String getGender() {
         return gender;
