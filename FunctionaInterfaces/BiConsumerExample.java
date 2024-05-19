@@ -1,3 +1,8 @@
+/*BiConsumer is another functional interface introduced in Java 8. 
+It represents an operation that accepts two input arguments and returns no result. 
+It has one abstract method: void accept(T t, U u). 
+BiConsumers are typically used for operations that consume two inputs simultaneously. */
+
 package FunctionaInterfaces;
 
 import java.util.List;
