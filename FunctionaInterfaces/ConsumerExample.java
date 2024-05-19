@@ -8,6 +8,9 @@ package FunctionaInterfaces;
 import java.util.List;
 import java.util.function.Consumer;
 
+import Data.Student;
+import Data.StudentDataBase;
+
 public class ConsumerExample {
 
     static Consumer<Student> c2 = (student) -> System.out.println(student);

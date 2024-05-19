@@ -1,4 +1,4 @@
-package FunctionaInterfaces;
+package Data;
 
 import java.util.Arrays;
 import java.util.List;

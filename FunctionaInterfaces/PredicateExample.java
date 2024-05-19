@@ -3,6 +3,9 @@ package FunctionaInterfaces;
 import java.util.List;
 import java.util.function.Predicate;
 
+import Data.Student;
+import Data.StudentDataBase;
+
 public class PredicateExample {
 
     static Predicate<Student> p1 = (i) -> i.getGradeLevel()>=3;

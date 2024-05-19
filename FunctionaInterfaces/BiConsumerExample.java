@@ -8,6 +8,9 @@ package FunctionaInterfaces;
 import java.util.List;
 import java.util.function.BiConsumer;
 
+import Data.Student;
+import Data.StudentDataBase;
+
 public class BiConsumerExample {
     
     static BiConsumer<String,List<String>> biConsumer = (name,activities) -> System.out.println(name + " : " + activities);

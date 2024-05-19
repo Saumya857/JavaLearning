@@ -5,6 +5,9 @@ import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
+import Data.Student;
+import Data.StudentDataBase;
+
 public class PredicateAndConsumer {
 
     static Predicate<Student> p1 = (i) -> i.getGradeLevel()>=3;
