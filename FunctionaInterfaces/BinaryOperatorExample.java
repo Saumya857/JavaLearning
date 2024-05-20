@@ -12,6 +12,7 @@ public class BinaryOperatorExample {
     public static void main(String[] args) {
         System.out.println(numOperator.apply(5, 4));
 
+        //minBy and maxBy are static methods and accept comparator as arguments
         BinaryOperator<Integer> maxBy = BinaryOperator.maxBy(c1);
         BinaryOperator<Integer> minBy = BinaryOperator.minBy(c1);
 
