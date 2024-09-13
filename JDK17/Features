@@ -1,0 +1,14 @@
+Below are the features of JDK 17
+1. Pattern Matching for instanceof
+2. Sealed Classes
+3. Records
+4. Switch Expressions
+5. Text Blocks
+
+Some Minor Language Features
+    Helpful NullPointerExceptions (JEP 358):
+	•	Improved diagnostics when a NullPointerException occurs.
+	•	Provides better context in exception messages.
+	Local Variable var in Lambda Parameters (JEP 361):
+	•	Can use var in lambda expressions to improve consistency.
+        (var a, var b) -> a + b;
