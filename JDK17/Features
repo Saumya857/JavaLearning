@@ -9,6 +9,7 @@ Some Minor Language Features
     Helpful NullPointerExceptions (JEP 358):
 	•	Improved diagnostics when a NullPointerException occurs.
 	•	Provides better context in exception messages.
+    This feature doesn’t need code, but in Java 17, a NullPointerException provides a more informative message. If the following code throws an exception:
 	Local Variable var in Lambda Parameters (JEP 361):
 	•	Can use var in lambda expressions to improve consistency.
         (var a, var b) -> a + b;
